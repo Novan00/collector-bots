@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class Unit : MonoBehaviour
 {
-    [SerializeField] private float _speed;
     [SerializeField] private NavMeshAgent _agent;
 
     private bool _isWorking = false;
